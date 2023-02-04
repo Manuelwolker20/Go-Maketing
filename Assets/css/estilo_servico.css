@@ -1,0 +1,14 @@
+#banner_service{
+
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    background-color: chartreuse;
+}
+
+section#banner_service .text_banner{
+    width: 100%;
+    font-size:1.5rem;
+}

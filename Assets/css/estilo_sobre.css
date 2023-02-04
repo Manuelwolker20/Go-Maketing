@@ -1,0 +1,52 @@
+
+#sobre section.sobre{
+    height:60vh;
+    display: flex;
+    align-items: center;
+}
+#sobre section.segundo ul{
+    flex-direction: row-reverse;
+}
+#sobre section.sobre ul{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#sobre section.sobre ul li{
+    width: 50%;
+}
+#sobre section.sobre ul .sobre_text{
+
+    font-size:1.1rem;
+}
+
+#sobre section.sobre ul .sobre_text p{
+    margin-top: 10px;
+}
+
+#sobre section.sobre ul .sobre_text button{
+    padding: 10px 15px;
+    border: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#sobre section.sobre ul .sobre_text button:hover{
+    background-color: #4983FF;
+    color: #fff;
+    transition: ease-in 6ms ;
+}
+
+#sobre section.sobre ul .sobre_image{
+    width: 400px;
+    height: 400px;
+
+    
+    border-radius: 50%;
+    background-color: #4983FF;
+}
